@@ -3,7 +3,7 @@
     <apiVersion>40.0</apiVersion>
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <label>vf_paginationfw_ex</label>
+    <label>pagination_example</label>
     <packageVersions>
         <majorNumber>1</majorNumber>
         <minorNumber>0</minorNumber>
