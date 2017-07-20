@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>vf_paginationfw_controller</members>
+        <members>SObjectPaginator</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>vf_paginationfw_ex</members>
+        <name>ApexPage</name>
+    </types>
+    <version>38.0</version>
+</Package>

@@ -1,0 +1,18 @@
+<apex:page controller="vf_paginationfw_controller" tabStyle="Contact">
+    <apex:form >        
+        <apex:pageBlock title="Contact Pagination Framework" >                 
+            <apex:pageBlockButtons >              
+                <apex:commandButton value="<< First" action="{!begingList}" disabled="{!DisablePrevious}" />
+                  <apex:commandButton value="< Previous" action="{!prevList}" disabled="{!DisablePrevious}" />
+                  <apex:commandButton value="Next >" action="{!nextList}" disabled="{!DisableNext}" />
+              <apex:commandButton value="Last >>" action="{!lastList}" disabled="{!DisableNext}" />            
+            </apex:pageBlockButtons>              
+            <apex:pageBlockTable value="{!listToShow}" var="con">
+                <apex:column value="{!con.name}"/>                  
+                <apex:column headerValue="LeadSource">
+                    <apex:outputField value="{!con.LeadSource}"/>
+                </apex:column>                              
+            </apex:pageBlockTable>                     
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
