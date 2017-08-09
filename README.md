@@ -11,9 +11,11 @@ void prevList();
 void lastList();
 ```
 * Extending the controller class to SObject Paginator 
+
 ![Image 1](https://github.com/sharathkmr/visualforce-pagination/blob/master/screenshots/image_1.JPG?raw=true)
 
 * Implement the abstract methods
+
 ![Image 2](https://github.com/sharathkmr/visualforce-pagination/blob/master/screenshots/image_2.JPG?raw=true)
 
 ## Step 2
@@ -40,7 +42,7 @@ run();
 * get the records by accessing the limitRecords list using getLimitRecords() method which will return List of SObjects.
 * after getting the records you need to cast the SObject to your respective SObject type.
 
-![Image 4](https://github.com/sharathkmr/visualforce-pagination/blob/master/screenshots/image_4.JPG?raw=true)
+![Image 4](https://github.com/sharathkmr/visualforce-pagination/blob/master/screenshots/image_4.jpg?raw=true)
 
 ## Step 4
 
@@ -57,7 +59,7 @@ public void lastList();
 * After calling the methods, get the limitRecords list from the SObjectPaginator using getLimitRecords() method which will return List of SObjects and cast the SObject to respective SObject type
 * Dont forget to clear the list in your controller class in every method.
 
-![Image 5](https://github.com/sharathkmr/visualforce-pagination/blob/master/screenshots/image_5.JPG?raw=true)
+![Image 5](https://github.com/sharathkmr/visualforce-pagination/blob/master/screenshots/image_5.jpg?raw=true)
 
 ## Step 5
 
@@ -69,13 +71,15 @@ public Boolean getDisableNext()
 public Boolean getDisablePrevious()
 ```
 
-![Image 6](https://github.com/sharathkmr/visualforce-pagination/blob/master/screenshots/image_6.JPG?raw=true)
+![Image 6](https://github.com/sharathkmr/visualforce-pagination/blob/master/screenshots/image_6.jpg?raw=true)
 
 
 ## Reference
 
-* for example you can go through the visualforce page and controller for implementation
+* you can go through the visualforce page and controller examples for implementation
 
 [Visualforce Page](https://github.com/sharathkmr/visualforce-pagination/blob/master/src/pages/pagination_example.page)
+
 [Controller](https://github.com/sharathkmr/visualforce-pagination/blob/master/src/classes/vf_paginationfw_controller.cls)
+
 [SObjectPaginator Class](https://github.com/sharathkmr/visualforce-pagination/blob/master/src/classes/SObjectPaginator.cls)
